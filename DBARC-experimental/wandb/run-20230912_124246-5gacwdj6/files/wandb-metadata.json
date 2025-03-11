@@ -1,0 +1,98 @@
+{
+    "os": "Linux-5.15.0-83-generic-x86_64-with-glibc2.17",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-09-12T07:12:47.550202",
+    "startedAt": "2023-09-12T07:12:46.497949",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "mr-siddy",
+    "username": "siddy",
+    "executable": "/home/siddy/anaconda3/envs/GDL/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2599.9998333333333,
+        "min": 800.0,
+        "max": 2600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2599.999,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2599.999,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2600.001,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2599.999,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 2600.0
+        }
+    ],
+    "disk": {
+        "total": 233.17998886108398,
+        "used": 162.83733367919922
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4093050880
+        }
+    ],
+    "memory": {
+        "total": 15.534046173095703
+    }
+}

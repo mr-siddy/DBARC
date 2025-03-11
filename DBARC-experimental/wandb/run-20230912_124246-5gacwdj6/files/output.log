@@ -1,0 +1,42 @@
+No such comm: 517f406329964c7e90a7ba317fe99c71
+No such comm: 24e0454d8d94440bb608cecf28f68047
+No such comm: 59858ba4d05d4695a4c0aa68d8c23bc3
+No such comm: c4804b6837a64fd5a7eccf43309cbc5c
+No such comm: f7e3dd5fef6244b7b0668be00e6f8916
+No such comm: 05ffce85c31e4b07935f04692026f218
+No such comm: a0735402259a45ddbd1efe9ca094f2f8
+No such comm: 732ab2f7becf4d44b618f28ad12fb200
+No such comm: e6b2b1f6f1504acaad94da33ff27ecba
+No such comm: 168f4ab308a242c5a7e9486f1ed94c60
+No such comm: 5f828f4bfb624dfbbad7c3f728e20071
+No such comm: 12914e846bfe4056b94978bcb30c94bc
+No such comm: 3253853cbbc74a778fdd8fca650986da
+No such comm: 07cf0888a17e49ccbbf86a5d4bf6d548
+No such comm: dff9a4e98f2c415086b627ed5bf8bdce
+No such comm: a16e199a5535485686ee53c01d071930
+Exception in thread SystemMonitor:
+Traceback (most recent call last):
+  File "/home/siddy/anaconda3/envs/GDL/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/siddy/anaconda3/envs/GDL/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/siddy/.local/lib/python3.8/site-packages/wandb/sdk/internal/system/system_monitor.py", line 118, in _start
+    asset.start()
+  File "/home/siddy/.local/lib/python3.8/site-packages/wandb/sdk/internal/system/assets/cpu.py", line 166, in start
+    self.metrics_monitor.start()
+  File "/home/siddy/.local/lib/python3.8/site-packages/wandb/sdk/internal/system/assets/interfaces.py", line 168, in start
+    logger.info(f"Started {self._process.name}")
+AttributeError: 'NoneType' object has no attribute 'name'
+Exception in thread SystemMonitor:
+Traceback (most recent call last):
+  File "/home/siddy/anaconda3/envs/GDL/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/siddy/anaconda3/envs/GDL/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/siddy/.local/lib/python3.8/site-packages/wandb/sdk/internal/system/system_monitor.py", line 118, in _start
+    asset.start()
+  File "/home/siddy/.local/lib/python3.8/site-packages/wandb/sdk/internal/system/assets/cpu.py", line 166, in start
+    self.metrics_monitor.start()
+  File "/home/siddy/.local/lib/python3.8/site-packages/wandb/sdk/internal/system/assets/interfaces.py", line 168, in start
+    logger.info(f"Started {self._process.name}")
+AttributeError: 'NoneType' object has no attribute 'name'

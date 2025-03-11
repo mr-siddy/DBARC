@@ -1,0 +1,393 @@
+2023-09-12 12:42:46,508 INFO    StreamThr :27341 [internal.py:wandb_internal():87] W&B internal server running at pid: 27341, started at: 2023-09-12 12:42:46.508123
+2023-09-12 12:42:46,509 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: status
+2023-09-12 12:42:46,522 INFO    WriterThread:27341 [datastore.py:open_for_write():85] open: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/run-5gacwdj6.wandb
+2023-09-12 12:42:46,522 DEBUG   SenderThread:27341 [sender.py:send():334] send: header
+2023-09-12 12:42:46,539 DEBUG   SenderThread:27341 [sender.py:send():334] send: run
+2023-09-12 12:42:47,427 INFO    SenderThread:27341 [dir_watcher.py:__init__():216] watching files in: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files
+2023-09-12 12:42:47,427 INFO    SenderThread:27341 [sender.py:_start_run_threads():1065] run started: 5gacwdj6 with start time 1694502766.506779
+2023-09-12 12:42:47,427 DEBUG   SenderThread:27341 [sender.py:send_request():361] send_request: summary_record
+2023-09-12 12:42:47,427 INFO    SenderThread:27341 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-09-12 12:42:47,431 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: check_version
+2023-09-12 12:42:47,431 DEBUG   SenderThread:27341 [sender.py:send_request():361] send_request: check_version
+2023-09-12 12:42:47,509 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: run_start
+2023-09-12 12:42:47,514 DEBUG   HandlerThread:27341 [system_info.py:__init__():31] System info init
+2023-09-12 12:42:47,514 DEBUG   HandlerThread:27341 [system_info.py:__init__():46] System info init done
+2023-09-12 12:42:47,514 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:42:47,515 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:42:47,515 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:42:47,515 INFO    HandlerThread:27341 [system_monitor.py:probe():172] Collecting system info
+2023-09-12 12:42:47,516 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started disk
+2023-09-12 12:42:47,517 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started gpu
+2023-09-12 12:42:47,518 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started memory
+2023-09-12 12:42:47,519 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started network
+2023-09-12 12:42:47,525 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:42:47,550 DEBUG   HandlerThread:27341 [system_info.py:probe():195] Probing system
+2023-09-12 12:42:47,558 DEBUG   HandlerThread:27341 [git.py:repo():40] git repository is invalid
+2023-09-12 12:42:47,559 DEBUG   HandlerThread:27341 [system_info.py:probe():241] Probing system done
+2023-09-12 12:42:47,559 DEBUG   HandlerThread:27341 [system_monitor.py:probe():181] {'os': 'Linux-5.15.0-83-generic-x86_64-with-glibc2.17', 'python': '3.8.16', 'heartbeatAt': '2023-09-12T07:12:47.550202', 'startedAt': '2023-09-12T07:12:46.497949', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'mr-siddy', 'username': 'siddy', 'executable': '/home/siddy/anaconda3/envs/GDL/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2599.9998333333333, 'min': 800.0, 'max': 2600.0}, 'cpu_freq_per_core': [{'current': 2600.0, 'min': 800.0, 'max': 2600.0}, {'current': 2599.999, 'min': 800.0, 'max': 2600.0}, {'current': 2599.999, 'min': 800.0, 'max': 2600.0}, {'current': 2600.0, 'min': 800.0, 'max': 2600.0}, {'current': 2600.0, 'min': 800.0, 'max': 2600.0}, {'current': 2600.0, 'min': 800.0, 'max': 2600.0}, {'current': 2600.0, 'min': 800.0, 'max': 2600.0}, {'current': 2600.0, 'min': 800.0, 'max': 2600.0}, {'current': 2600.001, 'min': 800.0, 'max': 2600.0}, {'current': 2599.999, 'min': 800.0, 'max': 2600.0}, {'current': 2600.0, 'min': 800.0, 'max': 2600.0}, {'current': 2600.0, 'min': 800.0, 'max': 2600.0}], 'disk': {'total': 233.17998886108398, 'used': 162.83733367919922}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4093050880}], 'memory': {'total': 15.534046173095703}}
+2023-09-12 12:42:47,559 INFO    HandlerThread:27341 [system_monitor.py:probe():182] Finished collecting system info
+2023-09-12 12:42:47,559 INFO    HandlerThread:27341 [system_monitor.py:probe():185] Publishing system info
+2023-09-12 12:42:47,559 DEBUG   HandlerThread:27341 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-12 12:42:47,560 DEBUG   HandlerThread:27341 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-12 12:42:47,560 DEBUG   HandlerThread:27341 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-09-12 12:42:48,430 INFO    Thread-13 :27341 [dir_watcher.py:_on_file_created():275] file/dir created: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/wandb-summary.json
+2023-09-12 12:42:48,431 INFO    Thread-13 :27341 [dir_watcher.py:_on_file_created():275] file/dir created: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/conda-environment.yaml
+2023-09-12 12:42:48,431 INFO    Thread-13 :27341 [dir_watcher.py:_on_file_created():275] file/dir created: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/requirements.txt
+2023-09-12 12:42:49,528 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:42:51,533 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:42:53,535 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:42:55,537 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:42:57,541 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:42:58,106 DEBUG   HandlerThread:27341 [system_info.py:_save_conda():86] Saving conda packages done
+2023-09-12 12:42:58,107 INFO    HandlerThread:27341 [system_monitor.py:probe():187] Finished publishing system info
+2023-09-12 12:42:58,110 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 12:42:58,110 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-12 12:42:58,110 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 12:42:58,110 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-12 12:42:58,111 DEBUG   SenderThread:27341 [sender.py:send():334] send: files
+2023-09-12 12:42:58,111 INFO    SenderThread:27341 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-09-12 12:42:58,132 DEBUG   SenderThread:27341 [sender.py:send():334] send: telemetry
+2023-09-12 12:42:58,133 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-12 12:42:58,133 DEBUG   SenderThread:27341 [sender.py:send_request():361] send_request: stop_status
+2023-09-12 12:42:58,133 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:42:58,137 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:42:58,137 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:42:58,137 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-09-12 12:42:58,138 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-09-12 12:42:58,138 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-09-12 12:42:58,139 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined cpu
+2023-09-12 12:42:58,139 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined disk
+2023-09-12 12:42:58,232 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined gpu
+2023-09-12 12:42:58,232 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined memory
+2023-09-12 12:42:58,232 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined network
+2023-09-12 12:42:58,254 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:42:58,254 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:42:58,255 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:42:58,255 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:42:58,256 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:42:58,256 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started disk
+2023-09-12 12:42:58,256 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started gpu
+2023-09-12 12:42:58,257 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started memory
+2023-09-12 12:42:58,257 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started network
+2023-09-12 12:42:58,260 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:42:58,288 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:42:58,288 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:42:58,288 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:42:58,289 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-09-12 12:42:58,289 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-09-12 12:42:58,289 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-09-12 12:42:58,290 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined cpu
+2023-09-12 12:42:58,290 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined disk
+2023-09-12 12:42:58,368 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined gpu
+2023-09-12 12:42:58,369 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined memory
+2023-09-12 12:42:58,369 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined network
+2023-09-12 12:42:58,434 INFO    Thread-13 :27341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/conda-environment.yaml
+2023-09-12 12:42:58,434 INFO    Thread-13 :27341 [dir_watcher.py:_on_file_created():275] file/dir created: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/wandb-metadata.json
+2023-09-12 12:42:58,459 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:42:58,459 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:42:58,459 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:42:58,459 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:42:58,461 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:42:58,463 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started disk
+2023-09-12 12:42:58,465 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started gpu
+2023-09-12 12:42:58,466 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started memory
+2023-09-12 12:42:58,466 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started network
+2023-09-12 12:42:58,471 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:42:58,480 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:42:58,480 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:42:58,480 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:42:58,480 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-09-12 12:42:58,481 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-09-12 12:42:58,481 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-09-12 12:42:58,482 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined cpu
+2023-09-12 12:42:58,482 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined disk
+2023-09-12 12:42:58,551 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined gpu
+2023-09-12 12:42:58,551 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined memory
+2023-09-12 12:42:58,551 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined network
+2023-09-12 12:42:58,552 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:42:58,552 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:42:58,552 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:42:58,552 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:42:58,553 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:42:58,553 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started disk
+2023-09-12 12:42:58,553 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started gpu
+2023-09-12 12:42:58,553 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started memory
+2023-09-12 12:42:58,554 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started network
+2023-09-12 12:42:58,557 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:42:58,557 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:42:58,557 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:42:58,558 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-09-12 12:42:58,558 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-09-12 12:42:58,558 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-09-12 12:42:58,559 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined cpu
+2023-09-12 12:42:58,559 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined disk
+2023-09-12 12:42:58,560 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:42:58,579 DEBUG   SenderThread:27341 [sender.py:send():334] send: stats
+2023-09-12 12:42:58,584 DEBUG   SenderThread:27341 [sender.py:send():334] send: stats
+2023-09-12 12:42:58,587 DEBUG   SenderThread:27341 [sender.py:send():334] send: stats
+2023-09-12 12:42:58,638 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined gpu
+2023-09-12 12:42:58,638 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined memory
+2023-09-12 12:42:58,638 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined network
+2023-09-12 12:42:58,638 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:42:58,638 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:42:58,638 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:42:58,639 DEBUG   SenderThread:27341 [sender.py:send():334] send: stats
+2023-09-12 12:42:58,639 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:42:58,639 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:42:58,639 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:42:58,640 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:42:58,640 WARNING HandlerThread:27341 [interfaces.py:finish():177] Failed to join cpu: cannot join thread before it is started
+2023-09-12 12:42:58,658 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:42:58,658 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:42:58,658 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:42:58,658 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:42:58,658 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:42:58,659 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started disk
+2023-09-12 12:42:58,659 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started gpu
+2023-09-12 12:42:58,660 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started memory
+2023-09-12 12:42:58,660 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started network
+2023-09-12 12:42:58,661 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:42:58,661 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:42:58,662 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:42:58,662 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined cpu
+2023-09-12 12:42:58,662 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-09-12 12:42:58,663 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-09-12 12:42:58,663 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-09-12 12:42:58,663 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined disk
+2023-09-12 12:42:58,665 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:42:58,764 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined gpu
+2023-09-12 12:42:58,764 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined memory
+2023-09-12 12:42:58,764 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined network
+2023-09-12 12:42:58,764 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:42:58,764 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:42:58,765 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:42:58,765 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:42:58,765 DEBUG   SenderThread:27341 [sender.py:send():334] send: stats
+2023-09-12 12:42:58,765 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:42:58,767 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started disk
+2023-09-12 12:42:58,768 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started gpu
+2023-09-12 12:42:58,768 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started memory
+2023-09-12 12:42:58,769 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started network
+2023-09-12 12:42:58,774 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:42:59,373 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:42:59,373 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:42:59,373 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:42:59,373 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-09-12 12:42:59,374 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined cpu
+2023-09-12 12:42:59,374 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined disk
+2023-09-12 12:42:59,374 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-09-12 12:42:59,374 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-09-12 12:42:59,434 INFO    Thread-13 :27341 [dir_watcher.py:_on_file_created():275] file/dir created: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/output.log
+2023-09-12 12:42:59,441 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined gpu
+2023-09-12 12:42:59,442 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined memory
+2023-09-12 12:42:59,442 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined network
+2023-09-12 12:42:59,442 DEBUG   SenderThread:27341 [sender.py:send():334] send: stats
+2023-09-12 12:42:59,482 INFO    Thread-16 :27341 [upload_job.py:push():143] Uploaded file /tmp/tmp42p1xiaiwandb/2spj3emu-wandb-metadata.json
+2023-09-12 12:42:59,555 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:42:59,555 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:42:59,555 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:42:59,556 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:42:59,556 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:42:59,556 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:42:59,556 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:42:59,556 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:42:59,557 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started disk
+2023-09-12 12:42:59,557 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-09-12 12:42:59,557 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-09-12 12:42:59,557 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-09-12 12:42:59,558 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined cpu
+2023-09-12 12:42:59,558 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined disk
+2023-09-12 12:42:59,558 DEBUG   SenderThread:27341 [sender.py:send():334] send: stats
+2023-09-12 12:42:59,615 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:42:59,615 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:42:59,615 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:42:59,615 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:42:59,616 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:42:59,616 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started disk
+2023-09-12 12:42:59,616 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started gpu
+2023-09-12 12:42:59,617 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started memory
+2023-09-12 12:42:59,617 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started network
+2023-09-12 12:42:59,620 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:01,435 INFO    Thread-13 :27341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/output.log
+2023-09-12 12:43:01,626 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:01,722 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:43:01,722 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:43:01,723 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:43:01,723 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-09-12 12:43:01,724 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-09-12 12:43:01,724 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-09-12 12:43:01,724 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined cpu
+2023-09-12 12:43:01,724 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined disk
+2023-09-12 12:43:01,794 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined gpu
+2023-09-12 12:43:01,794 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined memory
+2023-09-12 12:43:01,794 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined network
+2023-09-12 12:43:01,794 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:43:01,794 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:43:01,794 DEBUG   SenderThread:27341 [sender.py:send():334] send: stats
+2023-09-12 12:43:01,794 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:43:01,795 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:43:01,795 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:43:01,795 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:43:01,795 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:43:01,795 WARNING HandlerThread:27341 [interfaces.py:finish():177] Failed to join cpu: cannot join thread before it is started
+2023-09-12 12:43:01,821 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:43:01,821 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:43:01,821 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:43:01,821 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:43:01,822 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:43:01,822 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started disk
+2023-09-12 12:43:01,822 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started gpu
+2023-09-12 12:43:01,822 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started memory
+2023-09-12 12:43:01,823 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:43:01,824 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started network
+2023-09-12 12:43:01,824 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:43:01,824 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:43:01,825 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-09-12 12:43:01,825 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-09-12 12:43:01,825 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-09-12 12:43:01,826 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined cpu
+2023-09-12 12:43:01,826 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined disk
+2023-09-12 12:43:01,830 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:01,921 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined gpu
+2023-09-12 12:43:01,921 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined memory
+2023-09-12 12:43:01,922 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined network
+2023-09-12 12:43:01,922 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:43:01,922 DEBUG   SenderThread:27341 [sender.py:send():334] send: stats
+2023-09-12 12:43:01,922 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:43:01,923 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:43:01,923 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:43:01,923 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:43:01,923 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:43:01,924 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:43:01,924 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:43:01,925 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started disk
+2023-09-12 12:43:01,925 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-09-12 12:43:01,925 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-09-12 12:43:01,925 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-09-12 12:43:01,926 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined cpu
+2023-09-12 12:43:01,927 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined disk
+2023-09-12 12:43:01,927 DEBUG   SenderThread:27341 [sender.py:send():334] send: stats
+2023-09-12 12:43:01,990 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:43:01,990 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:43:01,990 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:43:01,990 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:43:01,991 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:43:01,991 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started disk
+2023-09-12 12:43:01,991 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started gpu
+2023-09-12 12:43:01,992 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started memory
+2023-09-12 12:43:01,993 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started network
+2023-09-12 12:43:01,996 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:02,002 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:43:02,002 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:43:02,002 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:43:02,003 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-09-12 12:43:02,003 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined cpu
+2023-09-12 12:43:02,003 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined disk
+2023-09-12 12:43:02,003 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-09-12 12:43:02,003 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-09-12 12:43:02,077 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined gpu
+2023-09-12 12:43:02,077 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined memory
+2023-09-12 12:43:02,077 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined network
+2023-09-12 12:43:02,077 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:43:02,077 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:43:02,077 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:43:02,077 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:43:02,078 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:43:02,078 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:43:02,078 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:43:02,078 DEBUG   SenderThread:27341 [sender.py:send():334] send: stats
+2023-09-12 12:43:02,079 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:43:02,079 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started disk
+2023-09-12 12:43:02,080 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined cpu
+2023-09-12 12:43:02,080 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-09-12 12:43:02,080 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined disk
+2023-09-12 12:43:02,080 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-09-12 12:43:02,080 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-09-12 12:43:02,081 DEBUG   SenderThread:27341 [sender.py:send():334] send: stats
+2023-09-12 12:43:02,216 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:43:02,216 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:43:02,216 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:43:02,217 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:43:02,217 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:43:02,217 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started disk
+2023-09-12 12:43:02,218 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:43:02,218 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:43:02,218 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:43:02,218 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started gpu
+2023-09-12 12:43:02,219 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined cpu
+2023-09-12 12:43:02,219 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-09-12 12:43:02,219 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined disk
+2023-09-12 12:43:02,219 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-09-12 12:43:02,219 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-09-12 12:43:02,222 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:02,295 INFO    HandlerThread:27341 [interfaces.py:finish():175] Joined gpu
+2023-09-12 12:43:02,295 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:43:02,295 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:43:02,295 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:43:02,295 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:43:02,296 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: pause
+2023-09-12 12:43:02,296 INFO    HandlerThread:27341 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-09-12 12:43:02,296 INFO    HandlerThread:27341 [system_monitor.py:finish():161] Stopping system monitor
+2023-09-12 12:43:02,296 DEBUG   SenderThread:27341 [sender.py:send():334] send: stats
+2023-09-12 12:43:02,296 WARNING HandlerThread:27341 [interfaces.py:finish():177] Failed to join cpu: cannot join thread before it is started
+2023-09-12 12:43:02,297 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:43:02,297 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-09-12 12:43:02,297 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-09-12 12:43:02,297 DEBUG   SystemMonitor:27341 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-09-12 12:43:02,297 DEBUG   SenderThread:27341 [sender.py:send():334] send: stats
+2023-09-12 12:43:02,322 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: resume
+2023-09-12 12:43:02,322 INFO    HandlerThread:27341 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-09-12 12:43:02,322 INFO    HandlerThread:27341 [system_monitor.py:start():151] Starting system monitor
+2023-09-12 12:43:02,322 INFO    SystemMonitor:27341 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-09-12 12:43:02,323 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started cpu
+2023-09-12 12:43:02,323 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started disk
+2023-09-12 12:43:02,323 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started gpu
+2023-09-12 12:43:02,323 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started memory
+2023-09-12 12:43:02,323 INFO    SystemMonitor:27341 [interfaces.py:start():168] Started network
+2023-09-12 12:43:02,328 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:03,298 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 12:43:03,436 INFO    Thread-13 :27341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/output.log
+2023-09-12 12:43:04,330 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:06,334 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:08,299 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 12:43:08,337 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:10,344 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:12,350 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:13,139 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-12 12:43:13,143 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-12 12:43:13,313 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 12:43:14,384 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:16,493 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:18,284 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-12 12:43:18,449 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 12:43:21,968 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:23,356 INFO    Thread-13 :27341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/config.yaml
+2023-09-12 12:43:23,364 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-12 12:43:24,065 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:26,112 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:27,973 DEBUG   HandlerThread:27341 [handler.py:handle_request():144] handle_request: status_report
+2023-09-12 12:43:28,107 ERROR   cpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: process no longer exists (pid=27253)
+2023-09-12 12:43:28,107 ERROR   cpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: process no longer exists (pid=27253)
+2023-09-12 12:43:28,141 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:28,229 WARNING StreamThr :27341 [internal.py:is_dead():415] Internal process exiting, parent pid 27253 disappeared
+2023-09-12 12:43:28,229 ERROR   StreamThr :27341 [internal.py:wandb_internal():153] Internal process shutdown.
+2023-09-12 12:43:28,973 INFO    SenderThread:27341 [sender.py:finish():1491] shutting down sender
+2023-09-12 12:43:28,974 INFO    HandlerThread:27341 [handler.py:finish():841] shutting down handler
+2023-09-12 12:43:28,974 INFO    WriterThread:27341 [datastore.py:close():299] close: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/run-5gacwdj6.wandb
+2023-09-12 12:43:29,926 ERROR   memory    :27341 [interfaces.py:monitor():129] Failed to sample metric: process no longer exists (pid=27253)
+2023-09-12 12:43:29,926 ERROR   memory    :27341 [interfaces.py:monitor():129] Failed to sample metric: process no longer exists (pid=27253)
+2023-09-12 12:43:30,108 ERROR   cpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: process no longer exists (pid=27253)
+2023-09-12 12:43:30,108 ERROR   cpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: process no longer exists (pid=27253)
+2023-09-12 12:43:30,147 ERROR   gpu       :27341 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-09-12 12:43:30,390 INFO    SenderThread:27341 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-09-12 12:43:30,394 INFO    Thread-13 :27341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/output.log
+2023-09-12 12:43:30,395 INFO    SenderThread:27341 [dir_watcher.py:finish():392] scan: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files
+2023-09-12 12:43:30,395 INFO    SenderThread:27341 [dir_watcher.py:finish():406] scan save: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/config.yaml config.yaml
+2023-09-12 12:43:30,396 INFO    SenderThread:27341 [dir_watcher.py:finish():406] scan save: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/conda-environment.yaml conda-environment.yaml
+2023-09-12 12:43:30,396 INFO    SenderThread:27341 [dir_watcher.py:finish():406] scan save: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/wandb-metadata.json wandb-metadata.json
+2023-09-12 12:43:30,396 INFO    SenderThread:27341 [dir_watcher.py:finish():406] scan save: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/wandb-summary.json wandb-summary.json
+2023-09-12 12:43:30,397 INFO    SenderThread:27341 [dir_watcher.py:finish():406] scan save: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/requirements.txt requirements.txt
+2023-09-12 12:43:30,403 INFO    SenderThread:27341 [dir_watcher.py:finish():406] scan save: /home/siddy/META/DBARC/wandb/run-20230912_124246-5gacwdj6/files/output.log output.log
+2023-09-12 12:43:30,403 INFO    SenderThread:27341 [file_pusher.py:finish():160] shutting down file pusher
+2023-09-12 12:43:30,403 INFO    SenderThread:27341 [file_pusher.py:join():165] waiting for file pusher
+2023-09-12 12:43:30,976 INFO    MainThread:27341 [internal.py:handle_exit():77] Internal process exited

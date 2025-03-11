@@ -1,0 +1,56 @@
+2023-09-22 13:10:16,936 INFO    MainThread:100816 [wandb_setup.py:_flush():68] Configure stats pid to 100816
+2023-09-22 13:10:16,936 INFO    MainThread:100816 [wandb_setup.py:_flush():68] Loading settings from /home/siddy/.config/wandb/settings
+2023-09-22 13:10:16,936 INFO    MainThread:100816 [wandb_setup.py:_flush():68] Loading settings from /home/siddy/META/DBARC/wandb/settings
+2023-09-22 13:10:16,936 INFO    MainThread:100816 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-09-22 13:10:16,936 INFO    MainThread:100816 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-09-22 13:10:16,936 INFO    MainThread:100816 [wandb_init.py:_log_setup():478] Logging user logs to /home/siddy/META/DBARC/wandb/run-20230922_131016-iuzdga1f/logs/debug.log
+2023-09-22 13:10:16,937 INFO    MainThread:100816 [wandb_init.py:_log_setup():479] Logging internal logs to /home/siddy/META/DBARC/wandb/run-20230922_131016-iuzdga1f/logs/debug-internal.log
+2023-09-22 13:10:16,937 INFO    MainThread:100816 [wandb_init.py:_jupyter_setup():428] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7efd66454220>
+2023-09-22 13:10:16,937 INFO    MainThread:100816 [wandb_init.py:init():518] calling init triggers
+2023-09-22 13:10:16,937 INFO    MainThread:100816 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {'architecture': 'Ball-rewire', 'dataset': 'chameleon', 'epoch': 100, 'lr': 0.01, 'weight_decay': 0.001, 'Batch size': 1}
+2023-09-22 13:10:16,937 INFO    MainThread:100816 [wandb_init.py:init():571] starting backend
+2023-09-22 13:10:16,937 INFO    MainThread:100816 [wandb_init.py:init():575] setting up manager
+2023-09-22 13:10:16,939 INFO    MainThread:100816 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-09-22 13:10:16,941 INFO    MainThread:100816 [wandb_init.py:init():582] backend started and connected
+2023-09-22 13:10:16,948 INFO    MainThread:100816 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2023-09-22 13:10:16,949 INFO    MainThread:100816 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-09-22 13:10:16,949 INFO    MainThread:100816 [wandb_init.py:init():670] updated telemetry
+2023-09-22 13:10:16,999 INFO    MainThread:100816 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-09-22 13:10:18,246 INFO    MainThread:100816 [wandb_run.py:_on_init():2121] communicating current version
+2023-09-22 13:10:18,337 INFO    MainThread:100816 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.15.11 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-09-22 13:10:18,337 INFO    MainThread:100816 [wandb_init.py:init():758] starting run threads in backend
+2023-09-22 13:10:18,405 INFO    MainThread:100816 [wandb_run.py:_console_start():2101] atexit reg
+2023-09-22 13:10:18,405 INFO    MainThread:100816 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-09-22 13:10:18,406 INFO    MainThread:100816 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-09-22 13:10:18,406 INFO    MainThread:100816 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-09-22 13:10:18,407 INFO    MainThread:100816 [wandb_init.py:init():798] run started, returning control to user process
+2023-09-22 13:10:18,408 INFO    MainThread:100816 [wandb_init.py:_pause_backend():391] pausing backend
+2023-09-22 13:10:18,408 INFO    MainThread:100816 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-09-22 13:10:51,503 INFO    MainThread:100816 [wandb_init.py:_resume_backend():400] resuming backend
+2023-09-22 13:10:51,505 INFO    MainThread:100816 [wandb_init.py:_pause_backend():391] pausing backend
+2023-09-22 13:10:51,505 INFO    MainThread:100816 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-09-22 13:10:53,781 INFO    MainThread:100816 [wandb_init.py:_resume_backend():400] resuming backend
+2023-09-22 13:10:53,784 INFO    MainThread:100816 [wandb_init.py:_pause_backend():391] pausing backend
+2023-09-22 13:10:53,785 INFO    MainThread:100816 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-09-22 13:10:54,368 INFO    MainThread:100816 [wandb_init.py:_resume_backend():400] resuming backend
+2023-09-22 13:10:54,369 INFO    MainThread:100816 [wandb_init.py:_pause_backend():391] pausing backend
+2023-09-22 13:10:54,370 INFO    MainThread:100816 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-09-22 13:10:56,989 INFO    MainThread:100816 [wandb_init.py:_resume_backend():400] resuming backend
+2023-09-22 13:10:56,993 INFO    MainThread:100816 [wandb_init.py:_pause_backend():391] pausing backend
+2023-09-22 13:10:56,993 INFO    MainThread:100816 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-09-22 13:11:00,563 INFO    MainThread:100816 [wandb_init.py:_resume_backend():400] resuming backend
+2023-09-22 16:28:09,381 INFO    MainThread:100816 [wandb_init.py:_pause_backend():391] pausing backend
+2023-09-22 16:28:09,381 INFO    MainThread:100816 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-09-22 16:28:09,413 INFO    MainThread:100816 [wandb_init.py:_resume_backend():400] resuming backend
+2023-09-22 16:28:09,413 INFO    MainThread:100816 [wandb_run.py:_finish():1844] finishing run sidgraph/BALL-Rewiring/iuzdga1f
+2023-09-22 16:28:09,414 INFO    MainThread:100816 [jupyter.py:save_history():449] not saving jupyter history
+2023-09-22 16:28:09,415 INFO    MainThread:100816 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-09-22 16:28:09,415 INFO    MainThread:100816 [wandb_init.py:_jupyter_teardown():410] cleaning up jupyter logic
+2023-09-22 16:28:09,415 INFO    MainThread:100816 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2023-09-22 16:28:09,415 INFO    MainThread:100816 [wandb_run.py:_restore():2053] restore
+2023-09-22 16:28:09,415 INFO    MainThread:100816 [wandb_run.py:_restore():2059] restore done
+2023-09-22 16:28:19,576 INFO    MainThread:100816 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-09-22 16:28:19,577 INFO    MainThread:100816 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-09-22 16:28:19,581 INFO    MainThread:100816 [wandb_run.py:_footer_sync_info():3383] logging synced files
